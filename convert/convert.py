@@ -23,7 +23,7 @@ def download_video(url=''):
 def video_to_gif():
     clip = (VideoFileClip("req_video.mp4"))
     clip.write_gif("output.gif", fps = 2)
-    print (os.getcwd() + f"\output.gif")
+    print (os.getcwd() + "\output.gif")
 
 
 def main():
